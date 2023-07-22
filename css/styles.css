@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+  margin-top: 50px;
+}
+.header__logo {
+  height: 150px;
+  width: auto;
+}
+.login {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  margin: 50px 0;
+  color: #7ca6d9;
+}
+form {
+  display: grid;
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+.btn {
+  display: block;
+  min-width: 300px;
+  background-color: #d91083;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  color: white;
+  margin: 20px 0;
+}
+label input{
+  min-width: 300px;
+  align-self: center;
+  height: 40px;
+  border: solid 1px #7ca6d9;
+  margin: 15px 0;
+  display: block;
+}
+::placeholder {
+  text-align: center;
+  color: #7ca6d9;
+}
+.login__container--pass {
+  text-align: center;
+}
+.login__container--pass a {
+  color: #d91083;
+  padding: 5px;
+}
+
+@media only screen and  (max-width: 600px) {
+ .header__logo {
+  height: 90px;
+ }
+}
