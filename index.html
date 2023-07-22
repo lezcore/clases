@@ -14,15 +14,17 @@
   <main class="login">
     <section class="login__container">
       <h2 class="title">Ingresa tu clave de acceso aquí</h2>
-      <form method="post" action=''>
-        <label for="first-name"><input id="first-name" type="text" required placeholder="Ingresa tu usuario aquí"/></label>
+      <!-- <form method="post" action=''> -->
+        <form>
+          <label id="user" for="first-name"><input id="first-name" type="text" required placeholder="Ingresa tu usuario aquí"/></label>
           <!-- <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label> -->
           <!-- <label for="email">Enter Your Email: <input id="email" type="email" required /></label> -->
-        <label for="new-password"><input id="new-password" type="password" pattern=[a-z0-5]{8,}" required placeholder="ingresa tu clave aquí"/></label>
-        <input class="btn" type="submit" value="Enviar" />
-      </form>
-      <p class="login__container--pass">¿Aún no tienes una clave? <a href="#">Obtener Clave</a></p>
-    </section>
-  </main>
+          <label id="pass" for="new-password"><input id="new-password" type="password"  required placeholder="ingresa tu clave aquí"/></label>
+          <input class="btn" type="submit" value="Enviar" onclick=login()/>
+        </form>
+        <p class="login__container--pass">¿Aún no tienes una clave? <a href="#">Obtener Clave</a></p>
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
 </body>
 </html>
