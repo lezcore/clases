@@ -10,40 +10,70 @@
   <header class="header">
     <img class="header__logo" src="./img/WhatsApp Image 2023-07-21 at 8.47.21 PM.jpeg" alt="logo">
   </header>
-  <h2 class="title"><span>¡</span> Bienvenido <span>!</span></h2>
   <div class="content__container">
-    <div>
-      <p type="button" id="valueOne" onclick="mostrar()">hola</p>
-      <button type="button" id="valueDefault" onclick="mostrando()">Introducción</button>
-      <select class="content__info" name="content">
-        <!-- <option type="button" id="valueDefault" onclick="mostrando()">Introducción</option> -->
-        <option type="button" value="valor1" onclick="valor1(change)">Valor 1</option>
-        <option type="button" value="valor2" onclick="valor1(change)">Valor 2</option>
-        <option type="button" value="valor2" onclick="valor3(change)">Valor 3</option>
-      </select>
-      <!-- <select class="content__info" name="content">
-        <option value="introduccion" onclick="introduccion(change)">Módulo 1</option>
-        <option value="valor1" onclick="introduccion(change)">Valor 1</option>
-        <option value="valor2" onclick="introduccion(change)">Valor 2</option>
-        <option value="valor2" onclick="introduccion(change)">Valor 3</option>
-      </select>
-      <select class="content__info" name="content">
-        <option value="introduccion" onclick="introduccion(change)">Módulo 2</option>
-        <option value="valor1" onclick="introduccion(change)">Valor 1</option>
-        <option value="valor2" onclick="introduccion(change)">Valor 2</option>
-        <option value="valor2" onclick="introduccion(change)">Valor 3</option>
-      </select>
-      <select class="content__info" name="content">
-        <option value="introduccion" onclick="introduccion(change)">Módulo 3</option>
-        <option value="valor1" onclick="introduccion(change)">Valor 1</option>
-        <option value="valor2" onclick="introduccion(change)">Valor 2</option>
-        <option value="valor2" onclick="introduccion(change)">Valor 3</option>
-      </select> -->
+    <div class="buttons">
+      <button id="show1" onclick="showOne()">Módulo 1</button>
+      <button id="show2" onclick="showTwo()">Módulo 2</button>
+      <button id="show3" onclick="showThree()">Módulo 3</button>
+      <button id="show4" onclick="showFour()">Bonos</button>
     </div>
-    <div class="content-introduccion">
-      <h3 id="introTitle">Titulo de la seccion</h3>
-      <p id="introDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam at delectus animi fugit ut dolorum similique sit iste doloremque illo deserunt, autem eius tempore, incidunt ratione accusamus molestiae laborum suscipit?</p>
-      <iframe width="600" height="400" src="https://www.youtube.com/embed/s5f7UfyXFRk" title="Secret Powers (Original Mix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div>
+      <div id="one" class="modulo1">
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 1: Clase 1</span> Sanación y Propósito de vida </h2>
+          <iframe class="video" width="600" height="300" src="https://www.youtube.com/embed/jva-FZxQ4FU" title="SANACIÓN Y PROPÓSITO DE VIDA DÍA 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 1: Clase 2</span> Sanación y Propósito de vida </h2>
+          <iframe class="video" width="600" height="300" src="https://www.youtube.com/embed/KJPqEr3a0Hc" title="DÍA 2 SANACIÓN Y PROPÓSITO DE VIDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 1: Clase 3</span> Sanación y Propósito de vida </h2>
+          <iframe class="video" width="600" height="300" src="https://www.youtube.com/embed/rlqYzMimaiY" title="DÍA 3 SANACIÓN Y PROPÓSITO DE VIDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="two" class="modulo2">
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 2: Clase 1</span> Sanación y Conexión con tu SER </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/R4jKfctrkNs" title="Sanación y Conexión del SER Día 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 2: Clase 2</span> Sanación y Conexión con tu SER </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/DNhaTbio404" title="Sanación y Conexión con tu SER Día 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 2: Clase 3</span> Sanación y Conexión con tu SER </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/4FpKMbQZ6ZQ" title="Sanación y Reconexion con tu SER Parte 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="three" class="modulo3">
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 3: Clase 1</span> SALUD </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/kvZuOhe3frY" title="Taller Terapéutico, SALUD Parte 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 3: Clase 2</span> SALUD </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/-xzrNMVMDVA" title="Taller Terapéutico, SALUD Parte 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Módulo 3: Clase 3</span> SALUD </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/p0oaaMYGLY0" title="Taller Terapéutico, SALUD Día 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="four" class="bonos">
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Bono 1:</span> Patrones Inconscientes </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/rF3V5fEVK2U" title="Patrones Inconscientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Bono 2:</span> Liberación Emocional </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/x0bFWYNVOlQ" title="Liberación Emocional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="principal-content" class="content-introduccion">
+          <h2 class="title one"><span>Bono 3:</span> Como las emociones te enferman </h2>
+          <iframe class="video" width="1280" height="584" src="https://www.youtube.com/embed/MJWUpDQG8JE" title="Como las emociones te enferman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
   </div>
   <script src="./datos.js"></script>
