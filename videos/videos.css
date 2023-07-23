@@ -46,6 +46,9 @@ body {
   border: solid 2px #7ca6d9;
   display: flex;
 }
+.content-introduccion {
+  /* display: none; */
+}
 .content-introduccion video{
   width: 400px;
   height: 400px;
