@@ -3,9 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./videos/videos.css">
   <title>Videos</title>
 </head>
 <body>
-  <div>Videos</div>
+  <header class="header">
+    <img class="header__logo" src="./img/WhatsApp Image 2023-07-21 at 8.47.21 PM.jpeg" alt="logo">
+  </header>
+  <h2 class="title"><span>¡</span> Bienvenido <span>!</span></h2>
+  <div class="content__container">
+    <div>
+      <select class="content__info" name="content">
+        <option type="button" value="introduccion">Introducción</option>
+        <option type="button" value="valor1" onclick="valor1(change)">Valor 1</option>
+        <option type="button" value="valor2" onclick="valor1(change)">Valor 2</option>
+        <option type="button" value="valor2" onclick="valor3(change)">Valor 3</option>
+      </select>
+      <!-- <select class="content__info" name="content">
+        <option value="introduccion" onclick="introduccion(change)">Módulo 1</option>
+        <option value="valor1" onclick="introduccion(change)">Valor 1</option>
+        <option value="valor2" onclick="introduccion(change)">Valor 2</option>
+        <option value="valor2" onclick="introduccion(change)">Valor 3</option>
+      </select>
+      <select class="content__info" name="content">
+        <option value="introduccion" onclick="introduccion(change)">Módulo 2</option>
+        <option value="valor1" onclick="introduccion(change)">Valor 1</option>
+        <option value="valor2" onclick="introduccion(change)">Valor 2</option>
+        <option value="valor2" onclick="introduccion(change)">Valor 3</option>
+      </select>
+      <select class="content__info" name="content">
+        <option value="introduccion" onclick="introduccion(change)">Módulo 3</option>
+        <option value="valor1" onclick="introduccion(change)">Valor 1</option>
+        <option value="valor2" onclick="introduccion(change)">Valor 2</option>
+        <option value="valor2" onclick="introduccion(change)">Valor 3</option>
+      </select> -->
+    </div>
+    <div class="content-introduccion">
+      <h3 id="introTitle" onclick="prueba()">Titulo de la seccion</h3>
+      <p id="introDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam at delectus animi fugit ut dolorum similique sit iste doloremque illo deserunt, autem eius tempore, incidunt ratione accusamus molestiae laborum suscipit?</p>
+      <iframe width="600" height="400" src="https://www.youtube.com/embed/s5f7UfyXFRk" title="Secret Powers (Original Mix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <script src="./datos.js"></script>
+      <!-- <script type="module" src="./datos.js"></script> -->
+    </div>
+  </div>
 </body>
 </html>

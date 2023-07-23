@@ -17,10 +17,9 @@
       <!-- <form method="post" action=''> -->
         <form>
           <label id="user" for="first-name"><input id="first-name" type="text" required placeholder="Ingresa tu usuario aquí"/></label>
-          <!-- <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label> -->
-          <!-- <label for="email">Enter Your Email: <input id="email" type="email" required /></label> -->
+
           <label id="pass" for="new-password"><input id="new-password" type="password"  required placeholder="ingresa tu clave aquí"/></label>
-          <input class="btn" type="submit" value="Enviar" onclick=login()/>
+          <input id="submit" class="btn" type="button" value="Enviar" onclick="login()"/>
         </form>
         <p class="login__container--pass">¿Aún no tienes una clave? <a href="#">Obtener Clave</a></p>
       </section>
