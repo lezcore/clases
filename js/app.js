@@ -3,7 +3,7 @@ function login (){
   user = document.getElementById("first-name").value;
   pass = document.getElementById("new-password").value;
   
-  if (user === "user" && pass === "12345") {
+  if (user === "user" && pass === "liberacion12345") {
     alert("bienvenido");
     window.location = "videos.html";
     // location.href = "videos.html";
