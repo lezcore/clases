@@ -3,7 +3,7 @@ function login (){
   user = document.getElementById("first-name").value;
   pass = document.getElementById("new-password").value;
   
-  if (user === "user" && pass === "liberacion12345" || user  === "leoyayi73@gmail.com" && pass === "leoyayi73" || user  === "business.angelaesmeralda@gmail.com" && pass === "business.angelaesmeralda" ) {
+  if (user === "user" && pass === "liberacion12345" || user  === "leoyayi73@gmail.com" && pass === "leoyayi73" || user  === "business.angelaesmeralda@gmail.com" && pass === "business.angelaesmeralda" || user  === "fredyomega41@gmail com" && pass === "fredyomega41" ) {
     alert("bienvenido");
     window.location = "videos.html";
     // location.href = "videos.html";
