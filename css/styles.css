@@ -52,6 +52,7 @@ label input{
   border: solid 1px #7ca6d9;
   margin: 15px 0;
   display: block;
+  padding-left: 10px;
 }
 ::placeholder {
   text-align: center;
